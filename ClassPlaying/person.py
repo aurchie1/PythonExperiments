@@ -16,7 +16,7 @@ class person:
     
  
     
-rich = person("Rich", "10-13-1982", "Male")
+rich = person("Rich", "10-13-1952", "Male")
 
 print(rich)
 
