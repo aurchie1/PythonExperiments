@@ -18,12 +18,18 @@ class person:
     
 rich = person("Rich", "10-13-1952", "Male")
 
-print(rich)
+print(rich.DOB)
+
+futureDate = datetime.date.today().__add__(datetime.timedelta(days=180))
+print(futureDate.weekday())
+print(futureDate)
 
 
+#print(dir(datetime.date))
 
-if datetime.date.today() == datetime.date.today().weekday():
-    print("Its a weekday")
+#if datetime.date.today() == datetime.date.today().weekday():
+#    print("Its a weekday")
 
-else:
-    print("Its a weekend")
+#else:
+#    print("Its a weekend")
+#
