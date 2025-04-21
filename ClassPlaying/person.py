@@ -21,7 +21,6 @@ rich = person("Rich", "10-13-1952", "Male")
 print(rich)
 
 
-print(dir(datetime.date))
 
 if datetime.date.today() == datetime.date.today().weekday():
     print("Its a weekday")
